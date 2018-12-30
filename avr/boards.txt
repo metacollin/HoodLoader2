@@ -93,8 +93,8 @@ HoodLoader2atmega32u2.build.mcu=atmega32u2
 HoodLoader2atmega32u2.build.variant=HoodLoader2
 HoodLoader2atmega32u2.build.board=HOODLOADER2
 HoodLoader2atmega32u2.build.f_cpu=16000000L
-HoodLoader2atmega32u2.vid.0=0x2341
-HoodLoader2atmega32u2.pid.0=0x484D
+HoodLoader2atmega32u2.vid.0=0x2C99
+HoodLoader2atmega32u2.pid.0=0x0002
 
 #uploading settings
 HoodLoader2atmega32u2.upload.speed=57600
@@ -111,10 +111,10 @@ HoodLoader2atmega32u2.bootloader.unlock_bits=0x3F
 HoodLoader2atmega32u2.bootloader.lock_bits=0x0F
 
 #usb settings, manufacturer overwritten by the IDE because of the VID
-HoodLoader2atmega32u2.build.vid=0x2341
-HoodLoader2atmega32u2.build.pid=0x484D
-HoodLoader2atmega32u2.build.usb_product="HoodLoader2 32u2"
-HoodLoader2atmega32u2.build.usb_manufacturer="Nico Hood"
+HoodLoader2atmega32u2.build.vid=0x2C99
+HoodLoader2atmega32u2.build.pid=0x0002
+HoodLoader2atmega32u2.build.usb_product="Original Prusa i3 MK3"
+HoodLoader2atmega32u2.build.usb_manufacturer="Prusa Research"
 HoodLoader2atmega32u2.build.extra_flags={build.usb_flags} -DMAGIC_KEY_POS=(RAMEND-1) -DUSB_EP_SIZE=16
 
 
@@ -312,7 +312,7 @@ HoodLoader2at90usb162.menu.board.dfu.bootloader.lock_bits=0x0F
 ##############################################################
 
 
-HoodLoader2atmega32u4.name=HoodLoader2 32u4
+HoodLoader2atmega24.name=HoodLoader2 32u4
 HoodLoader2atmega32u4.build.core=arduino:arduino
 HoodLoader2atmega32u4.bootloader.tool=arduino:avrdude
 HoodLoader2atmega32u4.upload.tool=arduino:avrdude
@@ -342,10 +342,10 @@ HoodLoader2atmega32u4.bootloader.unlock_bits=0x3F
 HoodLoader2atmega32u4.bootloader.lock_bits=0x2F
 
 #usb settings, manufacturer overwritten by the IDE because of the VID
-HoodLoader2atmega32u4.build.vid=0x2341
-HoodLoader2atmega32u4.build.pid=0x8036
-HoodLoader2atmega32u4.build.usb_product="HoodLoader2 32u4"
-HoodLoader2atmega32u4.build.usb_manufacturer="Nico Hood"
+HoodLoader2atmega32u4.build.vid=0x2C99
+HoodLoader2atmega32u4.build.pid=0x0002
+HoodLoader2atmega32u4.build.usb_product="Original Prusa i3 MK3"
+HoodLoader2atmega32u4.build.usb_manufacturer="Prusa Research"
 HoodLoader2atmega32u4.build.extra_flags={build.usb_flags} -DMAGIC_KEY_POS=(RAMEND-1) -DIO_MCU_RESET_PIN=4
 
 
